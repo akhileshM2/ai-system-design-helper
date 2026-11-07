@@ -1,0 +1,28 @@
+{
+  "name": "system-design-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^1.2.3",
+    "@langchain/langgraph": "^1.4.8",
+    "@langchain/tavily": "^1.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "@supabase/supabase-js": "^2.110.8",
+    "@types/dotenv": "^8.2.3",
+    "dotenv": "^17.4.2",
+    "mammoth": "^1.12.0",
+    "openai": "^6.49.0",
+    "pdf-parse": "^2.4.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5"
+  }
+}
